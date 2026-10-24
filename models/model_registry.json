@@ -1,0 +1,22 @@
+[
+    {
+        "model_version": "v1_baseline",
+        "training_data": "reference_train.csv",
+        "trained_at": "2026-10-24T23:50:22.147486",
+        "accuracy": 0.9302,
+        "roc_auc": 0.97577885360339,
+        "f1_score": 0.7955477445811365,
+        "feature_count": 10,
+        "training_samples": 5000
+    },
+    {
+        "model_version": "v2_retrained_20261024_235033",
+        "training_data": "updated_retrained_dataset.csv",
+        "trained_at": "2026-10-24T23:50:34.085070",
+        "accuracy": 0.8804444444444445,
+        "roc_auc": 0.9626617364117364,
+        "f1_score": 0.8547516198704104,
+        "feature_count": 10,
+        "training_samples": 4500
+    }
+]

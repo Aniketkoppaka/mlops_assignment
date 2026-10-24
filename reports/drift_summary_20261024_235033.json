@@ -1,0 +1,88 @@
+{
+    "drift_detected": true,
+    "drifted_features": [
+        "credit_score_scaled",
+        "debt_to_income_ratio",
+        "monthly_income_log",
+        "revolving_utilization",
+        "num_credit_inquiries_6m",
+        "delinquency_history_count",
+        "loan_amount_requested",
+        "employment_duration_years",
+        "savings_balance_scaled",
+        "transaction_velocity_score"
+    ],
+    "features": {
+        "credit_score_scaled": {
+            "is_drifted": true,
+            "ks_statistic": 0.20053333333333334,
+            "ks_pvalue": 4.4508543347213714e-41,
+            "psi": 0.2248851795471509,
+            "wasserstein_distance": 0.8148628361264679
+        },
+        "debt_to_income_ratio": {
+            "is_drifted": true,
+            "ks_statistic": 0.29586666666666667,
+            "ks_pvalue": 1.105756087878555e-89,
+            "psi": 0.4691256434313829,
+            "wasserstein_distance": 1.3614933567554184
+        },
+        "monthly_income_log": {
+            "is_drifted": true,
+            "ks_statistic": 0.09386666666666667,
+            "ks_pvalue": 2.702330093339516e-09,
+            "psi": 0.038907965949551745,
+            "wasserstein_distance": 0.31416942013175797
+        },
+        "revolving_utilization": {
+            "is_drifted": true,
+            "ks_statistic": 0.10566666666666667,
+            "ks_pvalue": 1.1495183565123736e-11,
+            "psi": 0.08842735255495762,
+            "wasserstein_distance": 0.37774491142408706
+        },
+        "num_credit_inquiries_6m": {
+            "is_drifted": true,
+            "ks_statistic": 0.1554,
+            "ks_pvalue": 8.945855569815808e-25,
+            "psi": 0.13236980516462535,
+            "wasserstein_distance": 0.5618180775227208
+        },
+        "delinquency_history_count": {
+            "is_drifted": true,
+            "ks_statistic": 0.16533333333333333,
+            "ks_pvalue": 5.319653999073056e-28,
+            "psi": 0.34227121802654026,
+            "wasserstein_distance": 1.0848341282011151
+        },
+        "loan_amount_requested": {
+            "is_drifted": true,
+            "ks_statistic": 0.21706666666666666,
+            "ks_pvalue": 4.090585954801371e-48,
+            "psi": 0.31100254984577036,
+            "wasserstein_distance": 0.8120220509989056
+        },
+        "employment_duration_years": {
+            "is_drifted": true,
+            "ks_statistic": 0.08373333333333334,
+            "ks_pvalue": 1.750371927376354e-07,
+            "psi": 0.14557500258160794,
+            "wasserstein_distance": 0.48818954565218603
+        },
+        "savings_balance_scaled": {
+            "is_drifted": true,
+            "ks_statistic": 0.2566,
+            "ks_pvalue": 2.719717874897158e-67,
+            "psi": 0.409615712207705,
+            "wasserstein_distance": 1.2357811119763291
+        },
+        "transaction_velocity_score": {
+            "is_drifted": true,
+            "ks_statistic": 0.2478,
+            "ks_pvalue": 9.833549017491262e-63,
+            "psi": 0.6046368814769768,
+            "wasserstein_distance": 1.3799662482503212
+        }
+    },
+    "drift_ratio": 1.0
+}
